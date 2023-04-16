@@ -20,6 +20,8 @@
     <string name="menu_gallery">Mis Compras</string>
     <string name="menu_location">Ubicacion</string>
     <string name="menu_slideshow">Configuración</string>
+    <string name="hint_latitud">Latitud</string>
+    <string name="hint_longitud">Longitud</string>
     <string name="add_shop">Añadir al Carrito</string>
     <string name="comprar_p">Comprar</string>
     <string-array name="tipoDoc">
@@ -29,21 +31,21 @@
         <item>PASAPORTE</item>
     </string-array>
     <string-array name="departamentos">
-        <item>Pichincha</item>
-        <item>Guayaquil</item>
-        <item>Manabi</item>
-        <item>Lima</item>
-    </string-array>
-    <string-array name="provincias">
         <item>Quito</item>
         <item>Guayas</item>
         <item>Cuenca</item>
     </string-array>
+    <string-array name="provincias">
+        <item>Pichincha</item>
+        <item>Guayaquil</item>
+        <item>Manabi</item>
+    </string-array>
     <string-array name="distritos">
-        <item>Ferreñafe</item>
-        <item>Pueblo Nuevo</item>
-        <item>Mesones Muro</item>
-        <item>Inkahuasi</item>
-        <item>Kañaris</item>
+        <item>Norte</item>
+        <item>Centro </item>
+        <item>Sur</item>
+        <item>Valle</item>
+        <item>Otros</item>
+
     </string-array>
 </resources>

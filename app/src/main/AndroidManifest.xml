@@ -20,6 +20,11 @@
         android:theme="@style/Theme.ECommerceApp"
         android:usesCleartextTraffic="false"
         android:requestLegacyExternalStorage="true">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBsyHJhDYb36-PP9I3hktcuctUu349cxg0" />
+
         <activity
             android:name="com.ricardotravez.cliente.proyecto.activity.VerInvoiceActivity"
             android:exported="false" />
