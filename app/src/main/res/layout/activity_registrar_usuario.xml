@@ -479,6 +479,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:hint="Ingrese su contraseña"
+                                    app:passwordToggleEnabled="true"
                                     app:startIconDrawable="@drawable/ic_lock">
 
                                     <com.google.android.material.textfield.TextInputEditText
