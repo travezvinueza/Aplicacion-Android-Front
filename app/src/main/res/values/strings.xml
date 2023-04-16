@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <string name="label_usuario">Correo Electrónico</string>
+    <string name="label_password">Contraseña</string>
+    <string name="label_start_session">Iniciar Sesión</string>
+    <string name="label_nuevoUser"><u>Nuevo Usuario ? Registrarme Ahora</u></string>
+    <string name="label_olvide_password">Olvide mi contraseña ?</string>
+    <string name="label_bienvenida">Hola ! - Identifíquese para iniciar sesión</string>
+    <string name="title_activity_inicio">InicioActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ricardo Travez</string>
+    <string name="nav_header_subtitle">ricardo@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesión</string>
+    <string name="descripcion_platillo">Somos lideres en renta de impresoras, computadoras, proyectores y todo lo necesario.
+        Todo lo necesario en equipos informaticos para tu evento o empresa. Cotización Disponible..</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Mis Compras</string>
+    <string name="menu_location">Ubicacion</string>
+    <string name="menu_slideshow">Configuración</string>
+    <string name="add_shop">Añadir al Carrito</string>
+    <string name="comprar_p">Comprar</string>
+    <string-array name="tipoDoc">
+        <item>DNI</item>
+        <item>RUC</item>
+        <item>CARNET</item>
+        <item>PASAPORTE</item>
+    </string-array>
+    <string-array name="departamentos">
+        <item>Pichincha</item>
+        <item>Guayaquil</item>
+        <item>Manabi</item>
+        <item>Lima</item>
+    </string-array>
+    <string-array name="provincias">
+        <item>Quito</item>
+        <item>Guayas</item>
+        <item>Cuenca</item>
+    </string-array>
+    <string-array name="distritos">
+        <item>Ferreñafe</item>
+        <item>Pueblo Nuevo</item>
+        <item>Mesones Muro</item>
+        <item>Inkahuasi</item>
+        <item>Kañaris</item>
+    </string-array>
+</resources>

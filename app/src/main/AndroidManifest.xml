@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ricardotravez.cliente.proyecto">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.ricardotravez.cliente.proyecto.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ECommerceApp"
+        android:usesCleartextTraffic="false"
+        android:requestLegacyExternalStorage="true">
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.VerInvoiceActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.PlatillosCarritoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.DetallePlatilloActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.ui.compras.DetalleMisComprasActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.ListarPlatillosPorCategoriaActivity"
+            android:exported="true" />
+        <!--
+        Para permitir que la aplicación ejecute solicitudes http, ya que por
+        defecto es https
+        -->
+        <activity android:name="com.ricardotravez.cliente.proyecto.activity.RegistrarUsuarioActivity" />
+        <activity
+            android:name="com.ricardotravez.cliente.proyecto.activity.InicioActivity"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.ECommerceApp.NoActionBar" />
+        <activity android:name="com.ricardotravez.cliente.proyecto.activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
